@@ -65,22 +65,29 @@ h1{
     position: relative;
 }
 
+#Backbutton{
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    position: relative;
+}
+
 #Registerbutton:hover{
     background-color: blue;
     color: white;
     padding: 5px;
 }
-
 #Cancelarbutton:hover{
     background-color: blue;
     color: white;
     padding: 5px;
 }
-/*
-#formRegistro{
-    width: 100px;
-    height: 200px;
-}*/
+#Backbutton:hover{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
 
 #formRegistro{
     padding: 15px;
