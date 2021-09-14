@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width= device width, initial -scale= 1.0">
+        <title>Sprint 1: Registro</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen">
+    </head>
+    <body>
+        <h1>Formulario de registro</h1>
+        <!---
+            campos de texto (nombre completo, usuario de preferencia, contraseña, teléfono móvil, dirección
+            de residencia, correo electrónico, confirmación de correo electrónico),cada uno con un id 
+            específico
+        -->
+        <div id="formRegistro">
+            <table>
+                <tr>
+                    <td class="celda">Nombre Completo: </td><td><input type="text" name="nombre" id="campoNombre"><br></td>
+                </tr>
+                <tr>
+                    <td class="celda">Usuario de preferencia: </td><td><input type="text" name="usuario" id="campoUsuario"><br></td>
+                </tr>
+                <tr>
+                    <td class="celda">Contraseña: </td><td><input type="password" name="password" id="campoPass"><br></td>
+                </tr>
+                <tr>
+                    <td class="celda">Telefono movil: </td><td><input type="text" name="telefono" id="campoMovil"><br></td></td>
+                </tr>
+                <tr>
+                    <td class="celda">Direccion de residencia: </td><td><input type="text" name="direccion" id="campoDireccion"><br></td>
+                </tr>
+                <tr>
+                    <td class="celda">Correo electronico: </td><td><input type="text" name="correo" id="campoCorreo"><br></td>
+                </tr>
+                <tr>
+                    <td class="celda">Confirmacion de correo electronico: </td><td><input type="text" name="ConfCorreo" id="campoConfCorreo"><br></td>
+                </tr>
+            </table>
+            <br><button id="Registerbutton">Enviar</button><button id="Cancelarbutton">Cancelar</button>
+        </div>
+    </body>  
+</html>

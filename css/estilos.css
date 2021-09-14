@@ -1,0 +1,114 @@
+
+/*
+Esto es un comentario
+*/
+    
+*{
+    padding: 0;
+    margin: 0;
+}
+p {
+    color:blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+}
+
+#nav_bar{
+    background-color:rgb(204, 201, 201);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu>li{
+    float: left;
+    text-align:center
+}
+
+#menu li>a{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+}
+
+#menu li>a:hover{
+    color: black;
+    background-color: blue;
+}
+
+h1{
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    text-align: center;
+}
+
+#Registerbutton{
+    width: 50px;
+    height: 30px;
+    position: relative;
+}
+
+#Cancelarbutton{
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    position: relative;
+}
+
+#Registerbutton:hover{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+#Cancelarbutton:hover{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+/*
+#formRegistro{
+    width: 100px;
+    height: 200px;
+}*/
+
+#formRegistro{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#campoNombre{
+    padding: 5px;
+}
+#campoUsuario{
+    padding: 5px;
+} 
+#campoPass{
+    padding: 5px;
+} 
+#campoDireccion{
+    padding: 5px;
+}
+#campoCorreo{
+    padding: 5px;
+}
+#campoConfCorreo{
+    padding: 5px;
+}
+#campoMovil{
+    padding: 5px;
+}
+
+.celda{
+    border: green 1.5px solid;
+}
