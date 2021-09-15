@@ -1,21 +1,22 @@
-
 /*
 Esto es un comentario
 */
-    
 *{
     padding: 0;
     margin: 0;
 }
-p {
+
+/* p {
     color:blueviolet;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: aqua;
-}
+} */
 
 #nav_bar{
-    background-color:rgb(204, 201, 201);
+    /* background-color:rgb(204, 201, 201); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%; /*Lista ocupa el 100% pantalla*/
+    position: fixed;/*Mantiene el menu fijo a pesar del scroll*/
 }
 
 ul{
@@ -24,7 +25,8 @@ ul{
 
 #menu>li{
     float: left;
-    text-align:center
+    text-align:center;
+    width: calc(100% / 6); /* añade esto, se divide por 6 porque hay 6 elementos */
 }
 
 #menu li>a{
@@ -33,12 +35,20 @@ ul{
     padding: 10px;
     display: block;
     text-decoration: none;
-    min-width: 100px;
+    /* min-width: 100px; */
+    width: 100%;
+    transition: all 500ms ease; /*Hacer la transición mas suave*/
 }
 
 #menu li>a:hover{
-    color: black;
+    /* color: black; */
     background-color: blue;
+}
+
+#caja{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(118, 163, 231);
 }
 
 h1{
@@ -99,10 +109,10 @@ h1{
 }
 #campoUsuario{
     padding: 5px;
-} 
+}
 #campoPass{
     padding: 5px;
-} 
+}
 #campoDireccion{
     padding: 5px;
 }
