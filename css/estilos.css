@@ -119,3 +119,29 @@ h1{
 .celda{
     border: green 1.5px solid;
 }
+
+#boton
+{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color: #cecece;
+    border-radius: 20px;
+    border: 2px solid #070707;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+#boton:hover
+{
+    color: #ffffff;
+    background-color: #3aa4be;
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#boton:active
+{
+    color: rgb(246, 248, 247);
+    background-color: rgb(22, 207, 183);
+}
