@@ -16,7 +16,8 @@ Esto es un comentario
     /* background-color:rgb(204, 201, 201); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%; /*Lista ocupa el 100% pantalla*/
-    position: fixed;/*Mantiene el menu fijo a pesar del scroll*/
+    /* Mantiene el menu fijo a pesar del scroll */
+    position: fixed;
 }
 
 ul{
@@ -26,7 +27,8 @@ ul{
 #menu>li{
     float: left;
     text-align:center;
-    width: calc(100% / 6); /* añade esto, se divide por 6 porque hay 6 elementos */
+    /* añade esto, se divide por 6 porque hay 6 elementos */
+    width: calc(100% / 6);
 }
 
 #menu li>a{
@@ -36,8 +38,10 @@ ul{
     display: block;
     text-decoration: none;
     /* min-width: 100px; */
-    width: 100%;
-    transition: all 500ms ease; /*Hacer la transición mas suave*/
+    /* width: 100%; */
+
+    /*Hacer la transición mas suave*/
+    transition: all 500ms ease;
 }
 
 #menu li>a:hover{
@@ -48,7 +52,7 @@ ul{
 #caja{
     width: 100%;
     height: 1000px;
-    background-color: rgb(118, 163, 231);
+    background-color: transparent;
 }
 
 h1{
