@@ -12,6 +12,10 @@ Esto es un comentario
     background-color: aqua;
 } */
 
+section{
+    margin:50px;
+}
+
 #nav_bar{
     /* background-color:rgb(204, 201, 201); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -64,7 +68,7 @@ h1{
 #Registerbutton{
     width: 50px;
     height: 30px;
-    position: relative;
+    margin-left: 50px;
 }
 
 #Cancelarbutton{
@@ -141,7 +145,8 @@ h1{
     border-radius: 20px;
     border: 2px solid #070707;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  }
+}
+
 #boton:hover
 {
     color: #ffffff;
