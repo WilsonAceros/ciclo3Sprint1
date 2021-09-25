@@ -14,31 +14,34 @@
             específico
         -->
         <div id="formRegistro">
-            <table>
-                <tr>
-                    <td class="celda">Nombre Completo: </td><td><input type="text" name="nombre" id="campoNombre"><br></td>
-                </tr>
-                <tr>
-                    <td class="celda">Usuario de preferencia: </td><td><input type="text" name="usuario" id="campoUsuario"><br></td>
-                </tr>
-                <tr>
-                    <td class="celda">Contraseña: </td><td><input type="password" name="password" id="campoPass"><br></td>
-                </tr>
-                <tr>
-                    <td class="celda">Telefono movil: </td><td><input type="text" name="telefono" id="campoMovil"><br></td></td>
-                </tr>
-                <tr>
-                    <td class="celda">Direccion de residencia: </td><td><input type="text" name="direccion" id="campoDireccion"><br></td>
-                </tr>
-                <tr>
-                    <td class="celda">Correo electronico: </td><td><input type="text" name="correo" id="campoCorreo"><br></td>
-                </tr>
-                <tr>
-                    <td class="celda">Confirmacion de correo electronico: </td><td><input type="text" name="ConfCorreo" id="campoConfCorreo"><br></td>
-                </tr>
-            </table>
-            <br><button id="Registerbutton" type="submit">Enviar</button><button id="Cancelarbutton">Cancelar</button>
+            <form action="" id="formulario">
+                <table>
+                    <tr>
+                        <td class="celda">Nombre Completo: </td><td><input type="text" name="nombre" id="campoNombre"><br></td>
+                    </tr>
+                    <tr>
+                        <td class="celda">Usuario de preferencia: </td><td><input type="text" name="usuario" id="campoUsuario"><br></td>
+                    </tr>
+                    <tr>
+                        <td class="celda">Contraseña: </td><td><input type="password" name="password" id="campoPass"><br></td>
+                    </tr>
+                    <tr>
+                        <td class="celda">Telefono movil: </td><td><input type="text" name="telefono" id="campoTelefono"><br></td></td>
+                    </tr>
+                    <tr>
+                        <td class="celda">Direccion de residencia: </td><td><input type="text" name="direccion" id="campoDireccion"><br></td>
+                    </tr>
+                    <tr>
+                        <td class="celda">Correo electronico: </td><td><input type="text" name="correo" id="campoCorreo"><br></td>
+                    </tr>
+                    <tr>
+                        <td class="celda">Confirmacion de correo electronico: </td><td><input type="text" name="ConfCorreo" id="campoConfCorreo"><br></td>
+                    </tr>
+                </table>
+            </form>
+            <br><button id="Registerbutton" type="submit" onclick="validar_telefono('campoTelefono')">Enviar</button><button id="Cancelarbutton">Cancelar</button>
             <a href="index.html"><button id="Backbutton">Volver</button></a>
+            <script type="text/javascript" src="form3.js"></script>
         </div>
     </body>
 </html>
